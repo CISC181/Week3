@@ -6,7 +6,7 @@ import java.util.Date;
 /*
  * comment
  */
-public class Person {
+public abstract class Person {
 
 	private Date DOB;
 	private String FirstName;
