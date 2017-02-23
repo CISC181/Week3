@@ -41,7 +41,7 @@ public class CheckingAccountTest {
 
 	@Test
 	public final void testWithdraw() {
-		fail("Not yet implemented"); // TODO
+		fail("Not yet implemented"); 
 	}
 
 	@Test

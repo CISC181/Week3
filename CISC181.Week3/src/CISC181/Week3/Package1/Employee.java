@@ -21,6 +21,7 @@ public class Employee extends Person{
      * @since - 07/13/2014
      */
     public Employee() {
+    	
     }
 
     /**

@@ -7,7 +7,7 @@ package CISC181.Week3.Package2;
  * @since - 07/13/2014
  */
 
-abstract class Shape {
+abstract class Shape extends Object {
 	private int x;
 	private int y;
 
@@ -79,5 +79,8 @@ abstract class Shape {
 	abstract void draw();
 	
 	
-	abstract public double ComputeArea();
+	 public double ComputeArea()
+	 {
+		 return 0;
+	 };
 }

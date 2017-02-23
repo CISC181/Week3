@@ -4,7 +4,24 @@ public class CMain {
 
 	public static void main(String argv[]) {
 
-		// create some shape instances
+		Rectangle rec1 = new Rectangle(10,10,20,30);
+		Circle c1 = new Circle(10,10,40);
+		
+		
+		Shape s1 = new Rectangle(10,10,20,50);
+		Shape s2 = new Circle(20,20,50);
+		
+	
+		iShape iS1 = new Rectangle(10,10,20,90);
+	
+
+		
+		
+		
+		
+		
+		
+/*		// create some shape instances
 		Shape scribble[] = new Shape[2];
 		scribble[0] = new Rectangle(10, 20, 5, 6);
 		scribble[1] = new Circle(15, 25, 8);
@@ -23,7 +40,7 @@ public class CMain {
 		System.out.println(arect.ComputeArea());
 		
 		Circle cir = new Circle(0, 0, 22);
-		System.out.println(cir.ComputeArea());
+		System.out.println(cir.ComputeArea());*/
 		
 	}
 
